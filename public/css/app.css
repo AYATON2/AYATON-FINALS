@@ -1,0 +1,416 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+.people-container {
+  font-family: "Inter", sans-serif;
+  color: #222;
+  padding: 1.5rem;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+.people-container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.people-container header h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #111;
+}
+.people-container header .toast {
+  background: #111827;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0.6rem;
+  font-size: 0.9rem;
+  animation: fadeIn 0.3s ease;
+}
+.people-container .grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 1.5rem;
+}
+.people-container {
+  /* People List */
+}
+.people-container .people-list {
+  display: grid;
+  gap: 1rem;
+}
+.people-container .people-list .person-card {
+  background: #fff;
+  border-radius: 0.8rem;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: transform 0.2s ease;
+}
+.people-container .people-list .person-card:hover {
+  transform: translateY(-3px);
+}
+.people-container .people-list .person-card .info h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+  color: #111;
+}
+.people-container .people-list .person-card .info h3 span {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #6b7280;
+}
+.people-container .people-list .person-card .info p {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin: 0;
+}
+.people-container .people-list .person-card .actions {
+  display: flex;
+  gap: 0.4rem;
+}
+.people-container .people-list .person-card .actions .btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.9rem;
+  border-radius: 0.4rem;
+  transition: background 0.2s ease;
+}
+.people-container .people-list .person-card .actions .btn.edit {
+  color: #2563eb;
+}
+.people-container .people-list .person-card .actions .btn.edit:hover {
+  background: #eff6ff;
+}
+.people-container .people-list .person-card .actions .btn.delete {
+  color: #dc2626;
+}
+.people-container .people-list .person-card .actions .btn.delete:hover {
+  background: #fef2f2;
+}
+.people-container .people-list .empty {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+.people-container {
+  /* Form */
+}
+.people-container .form-container {
+  background: #fff;
+  border-radius: 0.8rem;
+  padding: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+.people-container .form-container h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.people-container .form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.people-container .form-container form input,
+.people-container .form-container form textarea {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+.people-container .form-container form input:focus,
+.people-container .form-container form textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+  outline: none;
+}
+.people-container .form-container form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+.people-container .form-container form .error {
+  font-size: 0.8rem;
+  color: #dc2626;
+  margin-top: -0.4rem;
+}
+.people-container .form-container form .btn-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+.people-container .form-container form .btn-group .btn {
+  flex: 1;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.people-container .form-container form .btn-group .btn.primary {
+  background: #2563eb;
+  color: #fff;
+}
+.people-container .form-container form .btn-group .btn.primary:hover {
+  background: #1d4ed8;
+}
+.people-container .form-container form .btn-group .btn.cancel {
+  background: #f3f4f6;
+  color: #374151;
+}
+.people-container .form-container form .btn-group .btn.cancel:hover {
+  background: #e5e7eb;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.people-container {
+  font-family: "Inter", sans-serif;
+  color: #222;
+  padding: 1.5rem;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+.people-container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.people-container header h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #111;
+}
+.people-container header .toast {
+  background: #111827;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0.6rem;
+  font-size: 0.9rem;
+  animation: fadeIn 0.3s ease;
+}
+.people-container .grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 1.5rem;
+}
+.people-container {
+  /* People List */
+}
+.people-container .people-list {
+  display: grid;
+  gap: 1rem;
+}
+.people-container .people-list .person-card {
+  background: #fff;
+  border-radius: 0.8rem;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: transform 0.2s ease;
+}
+.people-container .people-list .person-card:hover {
+  transform: translateY(-3px);
+}
+.people-container .people-list .person-card .info h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+  color: #111;
+}
+.people-container .people-list .person-card .info h3 span {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #6b7280;
+}
+.people-container .people-list .person-card .info p {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin: 0;
+}
+.people-container .people-list .person-card .actions {
+  display: flex;
+  gap: 0.4rem;
+}
+.people-container .people-list .person-card .actions .btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.9rem;
+  border-radius: 0.4rem;
+  transition: background 0.2s ease;
+}
+.people-container .people-list .person-card .actions .btn.edit {
+  color: #2563eb;
+}
+.people-container .people-list .person-card .actions .btn.edit:hover {
+  background: #eff6ff;
+}
+.people-container .people-list .person-card .actions .btn.delete {
+  color: #dc2626;
+}
+.people-container .people-list .person-card .actions .btn.delete:hover {
+  background: #fef2f2;
+}
+.people-container .people-list .empty {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+.people-container {
+  /* Form */
+}
+.people-container .form-container {
+  background: #fff;
+  border-radius: 0.8rem;
+  padding: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+.people-container .form-container h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.people-container .form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.people-container .form-container form input,
+.people-container .form-container form textarea {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+.people-container .form-container form input:focus,
+.people-container .form-container form textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+  outline: none;
+}
+.people-container .form-container form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+.people-container .form-container form .error {
+  font-size: 0.8rem;
+  color: #dc2626;
+  margin-top: -0.4rem;
+}
+.people-container .form-container form .btn-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+.people-container .form-container form .btn-group .btn {
+  flex: 1;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.people-container .form-container form .btn-group .btn.primary {
+  background: #2563eb;
+  color: #fff;
+}
+.people-container .form-container form .btn-group .btn.primary:hover {
+  background: #1d4ed8;
+}
+.people-container .form-container form .btn-group .btn.cancel {
+  background: #f3f4f6;
+  color: #374151;
+}
+.people-container .form-container form .btn-group .btn.cancel:hover {
+  background: #e5e7eb;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.contact-form {
+  max-width: 450px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fafafa;
+  font-family: "Nunito", sans-serif;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+.contact-form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #555;
+}
+.contact-form input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+.contact-form button {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+.contact-form button:hover {
+  background-color: #218838;
+}
+.contact-form .message {
+  margin: 1rem 0;
+  text-align: center;
+  font-weight: 600;
+  color: #155724;
+  background-color: #d4edda;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #c3e6cb;
+}

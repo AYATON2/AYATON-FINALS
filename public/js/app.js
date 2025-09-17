@@ -2082,7 +2082,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".people-container {\n  font-family: \"Inter\", sans-serif;\n  color: #222;\n  padding: 1.5rem;\n  background: #f8fafc;\n  min-height: 100vh;\n}\n.people-container header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-bottom: 1.5rem;\n}\n.people-container header h1 {\n  font-size: 1.6rem;\n  font-weight: 600;\n  color: #111;\n}\n.people-container header .toast {\n  background: #111827;\n  color: #fff;\n  padding: 0.6rem 1rem;\n  border-radius: 0.6rem;\n  font-size: 0.9rem;\n  animation: fadeIn 0.3s ease;\n}\n.people-container .grid-layout {\n  display: grid;\n  grid-template-columns: 1fr 320px;\n  gap: 1.5rem;\n}\n.people-container {\n  /* People List */\n}\n.people-container .people-list {\n  display: grid;\n  gap: 1rem;\n}\n.people-container .people-list .person-card {\n  background: #fff;\n  border-radius: 0.8rem;\n  padding: 1rem 1.2rem;\n  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-start;\n  transition: transform 0.2s ease;\n}\n.people-container .people-list .person-card:hover {\n  transform: translateY(-3px);\n}\n.people-container .people-list .person-card .info h3 {\n  font-size: 1rem;\n  font-weight: 600;\n  margin: 0 0 0.3rem;\n  color: #111;\n}\n.people-container .people-list .person-card .info h3 span {\n  font-size: 0.85rem;\n  font-weight: 400;\n  color: #6b7280;\n}\n.people-container .people-list .person-card .info p {\n  font-size: 0.9rem;\n  color: #4b5563;\n  margin: 0;\n}\n.people-container .people-list .person-card .actions {\n  display: flex;\n  gap: 0.4rem;\n}\n.people-container .people-list .person-card .actions .btn {\n  border: none;\n  background: none;\n  cursor: pointer;\n  padding: 0.4rem 0.6rem;\n  font-size: 0.9rem;\n  border-radius: 0.4rem;\n  transition: background 0.2s ease;\n}\n.people-container .people-list .person-card .actions .btn.edit {\n  color: #2563eb;\n}\n.people-container .people-list .person-card .actions .btn.edit:hover {\n  background: #eff6ff;\n}\n.people-container .people-list .person-card .actions .btn.delete {\n  color: #dc2626;\n}\n.people-container .people-list .person-card .actions .btn.delete:hover {\n  background: #fef2f2;\n}\n.people-container .people-list .empty {\n  text-align: center;\n  color: #6b7280;\n  font-size: 0.95rem;\n}\n.people-container {\n  /* Form */\n}\n.people-container .form-container {\n  background: #fff;\n  border-radius: 0.8rem;\n  padding: 1.2rem;\n  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);\n}\n.people-container .form-container h2 {\n  font-size: 1.1rem;\n  font-weight: 600;\n  margin-bottom: 1rem;\n}\n.people-container .form-container form {\n  display: flex;\n  flex-direction: column;\n  gap: 0.8rem;\n}\n.people-container .form-container form input,\n.people-container .form-container form textarea {\n  width: 100%;\n  padding: 0.7rem 0.9rem;\n  border: 1px solid #e5e7eb;\n  border-radius: 0.5rem;\n  font-size: 0.9rem;\n  transition: border 0.2s, box-shadow 0.2s;\n}\n.people-container .form-container form input:focus,\n.people-container .form-container form textarea:focus {\n  border-color: #2563eb;\n  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);\n  outline: none;\n}\n.people-container .form-container form textarea {\n  min-height: 80px;\n  resize: vertical;\n}\n.people-container .form-container form .error {\n  font-size: 0.8rem;\n  color: #dc2626;\n  margin-top: -0.4rem;\n}\n.people-container .form-container form .btn-group {\n  display: flex;\n  gap: 0.5rem;\n  margin-top: 0.6rem;\n}\n.people-container .form-container form .btn-group .btn {\n  flex: 1;\n  padding: 0.7rem;\n  border: none;\n  border-radius: 0.5rem;\n  font-size: 0.9rem;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.people-container .form-container form .btn-group .btn.primary {\n  background: #2563eb;\n  color: #fff;\n}\n.people-container .form-container form .btn-group .btn.primary:hover {\n  background: #1d4ed8;\n}\n.people-container .form-container form .btn-group .btn.cancel {\n  background: #f3f4f6;\n  color: #374151;\n}\n.people-container .form-container form .btn-group .btn.cancel:hover {\n  background: #e5e7eb;\n}\n\n/* Animations */\n@keyframes fadeIn {\n  from {\n    opacity: 0;\n    transform: translateY(-4px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".app-wrapper {\n  max-width: 900px;\n  margin: 2rem auto;\n  font-family: \"Segoe UI\", Tahoma, Geneva, Verdana, sans-serif;\n  color: #333;\n}\n\n.header {\n  display: flex;\n  gap: 1rem;\n  margin-bottom: 1rem;\n}\n\n.btn {\n  cursor: pointer;\n  padding: 0.5rem 1rem;\n  border-radius: 4px;\n  border: none;\n  background-color: #4a90e2;\n  color: white;\n  font-weight: 600;\n  transition: background-color 0.2s ease;\n}\n\n.btn:hover {\n  background-color: #357ABD;\n}\n\n.btn.small {\n  padding: 0.3rem 0.6rem;\n  font-size: 0.9rem;\n}\n\n.btn.primary {\n  background-color: #2ecc71;\n}\n\n.btn.primary:hover {\n  background-color: #27ae60;\n}\n\n.btn.cancel {\n  background-color: #e74c3c;\n}\n\n.btn.cancel:hover {\n  background-color: #c0392b;\n}\n\n.list-section {\n  margin-bottom: 2rem;\n  border: 1px solid #ddd;\n  border-radius: 8px;\n  padding: 1rem;\n  background: #f9f9f9;\n}\n\n.person-card {\n  background: white;\n  margin-bottom: 0.8rem;\n  padding: 0.8rem 1rem;\n  border-radius: 6px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);\n  transition: box-shadow 0.2s ease;\n}\n\n.person-card:hover {\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);\n}\n\n.person-card.archived {\n  opacity: 0.7;\n  background: #ececec;\n  font-style: italic;\n}\n\n.person-info h3 {\n  margin: 0 0 0.25rem;\n  font-weight: 700;\n  font-size: 1.1rem;\n}\n\n.person-info span {\n  font-weight: 400;\n  color: #666;\n  font-size: 0.9rem;\n}\n\n.person-info p {\n  margin: 0;\n  font-size: 0.95rem;\n  color: #555;\n}\n\n.actions button {\n  margin-left: 0.5rem;\n}\n\n.form-section {\n  margin-top: 2rem;\n}\n\n.form-card {\n  background: white;\n  padding: 1.5rem;\n  border-radius: 8px;\n  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);\n}\n\n.field {\n  margin-bottom: 1rem;\n}\n\n.field label {\n  display: block;\n  margin-bottom: 0.3rem;\n  font-weight: 600;\n}\n\n.field input,\n.field textarea {\n  width: 100%;\n  padding: 0.4rem 0.6rem;\n  border: 1px solid #ccc;\n  border-radius: 4px;\n  font-size: 1rem;\n  font-family: inherit;\n}\n\n.field textarea {\n  resize: vertical;\n  min-height: 60px;\n}\n\n.error {\n  color: #e74c3c;\n  font-size: 0.85rem;\n  margin-top: 0.2rem;\n  display: block;\n}\n\n.btn-group {\n  display: flex;\n  gap: 0.75rem;\n}\n\n.toast {\n  margin-bottom: 1rem;\n  padding: 0.75rem 1rem;\n  background: #2ecc71;\n  color: white;\n  border-radius: 4px;\n  font-weight: 600;\n  animation: fadein 0.3s ease forwards;\n}\n\n.toast.error {\n  background: #e74c3c;\n}\n\n@keyframes fadein {\n  from {\n    opacity: 0;\n  }\n  to {\n    opacity: 1;\n  }\n}\n.empty {\n  font-style: italic;\n  color: #999;\n  padding: 1rem 0;\n  text-align: center;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -33719,15 +33719,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var _components_Example__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Example */ "./resources/js/components/Example.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-// resources/js/app.js
-
-// Import the CSS/SCSS file that was compiled by Laravel Mix
- // Assuming your main SCSS file is app.scss
 
 
+ // Correct import for React 17
 
-
-// Import your Example component
 
 
 var App = function App() {
@@ -33737,7 +33732,7 @@ var App = function App() {
   });
 };
 
-// Render the App component into the DOM
+// React 17 rendering method
 react_dom__WEBPACK_IMPORTED_MODULE_2__.render(/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(App, {}), document.getElementById('app'));
 
 /***/ }),
@@ -33758,10 +33753,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _sass_example_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../sass/example.scss */ "./resources/sass/example.scss");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-function _toConsumableArray(r) { return _arrayWithoutHoles(r) || _iterableToArray(r) || _unsupportedIterableToArray(r) || _nonIterableSpread(); }
-function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _iterableToArray(r) { if ("undefined" != typeof Symbol && null != r[Symbol.iterator] || null != r["@@iterator"]) return Array.from(r); }
-function _arrayWithoutHoles(r) { if (Array.isArray(r)) return _arrayLikeToArray(r); }
 function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
@@ -33777,36 +33768,68 @@ var Example = function Example() {
     _useState2 = _slicedToArray(_useState, 2),
     people = _useState2[0],
     setPeople = _useState2[1];
-  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
+  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]),
     _useState4 = _slicedToArray(_useState3, 2),
-    name = _useState4[0],
-    setName = _useState4[1];
+    archivedPeople = _useState4[0],
+    setArchivedPeople = _useState4[1];
   var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
     _useState6 = _slicedToArray(_useState5, 2),
-    age = _useState6[0],
-    setAge = _useState6[1];
+    name = _useState6[0],
+    setName = _useState6[1];
   var _useState7 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
     _useState8 = _slicedToArray(_useState7, 2),
-    bio = _useState8[0],
-    setBio = _useState8[1];
-  var _useState9 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({}),
+    age = _useState8[0],
+    setAge = _useState8[1];
+  var _useState9 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(''),
     _useState0 = _slicedToArray(_useState9, 2),
-    formErrors = _useState0[0],
-    setFormErrors = _useState0[1];
-  var _useState1 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(null),
+    bio = _useState0[0],
+    setBio = _useState0[1];
+  var _useState1 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({}),
     _useState10 = _slicedToArray(_useState1, 2),
-    editingId = _useState10[0],
-    setEditingId = _useState10[1];
+    formErrors = _useState10[0],
+    setFormErrors = _useState10[1];
   var _useState11 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(null),
     _useState12 = _slicedToArray(_useState11, 2),
-    message = _useState12[0],
-    setMessage = _useState12[1];
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    editingId = _useState12[0],
+    setEditingId = _useState12[1];
+  var _useState13 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(null),
+    _useState14 = _slicedToArray(_useState13, 2),
+    message = _useState14[0],
+    setMessage = _useState14[1];
+  var _useState15 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true),
+    _useState16 = _slicedToArray(_useState15, 2),
+    showPeopleList = _useState16[0],
+    setShowPeopleList = _useState16[1];
+  var _useState17 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState18 = _slicedToArray(_useState17, 2),
+    showArchived = _useState18[0],
+    setShowArchived = _useState18[1];
+  var _useState19 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState20 = _slicedToArray(_useState19, 2),
+    showAddForm = _useState20[0],
+    setShowAddForm = _useState20[1];
+  var unwrap = function unwrap(res) {
+    if (Array.isArray(res.data)) return res.data;
+    if (res && res.data && res.data.data !== undefined) return res.data.data;
+    return res.data;
+  };
+  var fetchPeople = function fetchPeople() {
     axios__WEBPACK_IMPORTED_MODULE_1___default().get('/api/people').then(function (res) {
-      return setPeople(res.data);
+      return setPeople(unwrap(res) || []);
     })["catch"](function (err) {
-      return console.error(err);
+      return console.error('Failed fetch people:', err);
     });
+  };
+  var fetchArchived = function fetchArchived() {
+    axios__WEBPACK_IMPORTED_MODULE_1___default().get('/api/people-archived').then(function (res) {
+      return setArchivedPeople(unwrap(res) || []);
+    })["catch"](function (err) {
+      return console.error('Failed fetch archived people:', err);
+    });
+  };
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
+    fetchPeople();
+    fetchArchived();
   }, []);
   var resetForm = function resetForm() {
     setName('');
@@ -33814,83 +33837,250 @@ var Example = function Example() {
     setBio('');
     setEditingId(null);
     setFormErrors({});
+    setMessage(null);
   };
   var handleSubmit = function handleSubmit(e) {
     e.preventDefault();
     var errors = {};
-    if (!name) errors.name = 'Name is required';
-    if (!age) errors.age = 'Age is required';
-    if (!bio) errors.bio = 'Bio is required';
-    if (Object.keys(errors).length === 0) {
-      if (editingId) {
-        axios__WEBPACK_IMPORTED_MODULE_1___default().put("/api/people/".concat(editingId), {
-          name: name,
-          age: age,
-          bio: bio
-        }).then(function (res) {
-          setPeople(function (prev) {
-            return prev.map(function (p) {
-              return p.id === editingId ? res.data : p;
-            });
-          });
-          setMessage('✅ Updated successfully');
-          resetForm();
-        });
-      } else {
-        axios__WEBPACK_IMPORTED_MODULE_1___default().post('/api/people', {
-          name: name,
-          age: age,
-          bio: bio
-        }).then(function (res) {
-          setPeople(function (prev) {
-            return [].concat(_toConsumableArray(prev), [res.data]);
-          });
-          setMessage('✅ Added successfully');
-          resetForm();
-        });
-      }
-    } else {
+    if (!name.trim()) errors.name = 'Name is required';
+    if (!age || isNaN(age)) errors.age = 'Valid age is required';
+    if (!bio.trim()) errors.bio = 'Bio is required';
+    if (Object.keys(errors).length > 0) {
       setFormErrors(errors);
+      return;
+    }
+    var payload = {
+      name: name,
+      age: parseInt(age, 10),
+      bio: bio
+    };
+    if (editingId) {
+      axios__WEBPACK_IMPORTED_MODULE_1___default().put("/api/people/".concat(editingId), payload).then(function () {
+        fetchPeople();
+        setMessage('✅ Updated successfully');
+        resetForm();
+        setShowAddForm(false);
+      })["catch"](function () {
+        return setMessage('❌ Something went wrong while updating');
+      });
+    } else {
+      axios__WEBPACK_IMPORTED_MODULE_1___default().post('/api/people', payload).then(function () {
+        fetchPeople();
+        setMessage('✅ Added successfully');
+        resetForm();
+        setShowAddForm(false);
+      })["catch"](function () {
+        return setMessage('❌ Something went wrong while adding');
+      });
     }
   };
   var handleEdit = function handleEdit(person) {
     setEditingId(person.id);
-    setName(person.name);
-    setAge(person.age);
-    setBio(person.bio);
+    setName(person.name || '');
+    setAge(person.age ? String(person.age) : '');
+    setBio(person.bio || '');
     setMessage(null);
+    setShowAddForm(true);
   };
-  var handleDelete = function handleDelete(id) {
-    if (window.confirm('Delete this person?')) {
-      axios__WEBPACK_IMPORTED_MODULE_1___default()["delete"]("/api/people/".concat(id)).then(function () {
-        setPeople(function (prev) {
-          return prev.filter(function (p) {
-            return p.id !== id;
-          });
-        });
-        setMessage('🗑️ Deleted successfully');
-        if (editingId === id) resetForm();
-      });
-    }
+  var handleArchive = function handleArchive(id) {
+    if (!window.confirm('Move this person to archive?')) return;
+    axios__WEBPACK_IMPORTED_MODULE_1___default().put("/api/people/".concat(id, "/archive")).then(function () {
+      fetchPeople();
+      fetchArchived();
+      setMessage('📦 Archived successfully');
+      if (editingId === id) resetForm();
+      setShowAddForm(false);
+    })["catch"](function () {
+      return setMessage('❌ Something went wrong while archiving');
+    });
+  };
+  var handleDeleteArchived = function handleDeleteArchived(id) {
+    if (!window.confirm('Permanently delete this archived person?')) return;
+    axios__WEBPACK_IMPORTED_MODULE_1___default()["delete"]("/api/people/".concat(id, "/force")).then(function () {
+      fetchArchived();
+      setMessage('🗑️ Deleted permanently');
+    })["catch"](function () {
+      return setMessage('❌ Something went wrong while deleting');
+    });
+  };
+  var handleRestoreFromArchive = function handleRestoreFromArchive(id) {
+    axios__WEBPACK_IMPORTED_MODULE_1___default().put("/api/people/".concat(id, "/restore")).then(function () {
+      fetchPeople();
+      fetchArchived();
+      setMessage('✅ Restored successfully');
+      setShowPeopleList(true);
+      setShowArchived(false);
+    })["catch"](function () {
+      return setMessage('❌ Something went wrong while restoring');
+    });
+  };
+  var handleTogglePeopleList = function handleTogglePeopleList() {
+    setShowPeopleList(function (prev) {
+      if (!prev) {
+        setShowArchived(false);
+        setShowAddForm(false);
+      } else {
+        setShowAddForm(false);
+      }
+      return !prev;
+    });
+  };
+  var handleToggleArchived = function handleToggleArchived() {
+    setShowArchived(function (prev) {
+      if (!prev) setShowPeopleList(false);
+      return !prev;
+    });
+  };
+  var handleAddPersonClick = function handleAddPersonClick() {
+    resetForm();
+    setShowAddForm(true);
   };
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-    className: "people-container",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("header", {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
-        children: "\uD83D\uDC65 People Manager"
-      }), message && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-        className: "toast",
-        children: message
+    className: "app-wrapper",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      className: "header",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
+        onClick: handleTogglePeopleList,
+        className: "btn",
+        children: showPeopleList ? '➖ Hide People List' : '👥 Show People List'
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
+        onClick: handleToggleArchived,
+        className: "btn",
+        children: showArchived ? '➖ Hide Archived' : '📦 Show Archived'
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-      className: "grid-layout",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-        className: "people-list",
-        children: people.length > 0 ? people.map(function (person) {
-          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-            className: "person-card",
+    }), showPeopleList && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.Fragment, {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "list-section",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+          children: "\uD83D\uDC65 People List"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
+          onClick: handleAddPersonClick,
+          className: "btn primary",
+          style: {
+            marginBottom: '1rem'
+          },
+          children: "\u2795 Add Person"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "people-list",
+          children: people.length > 0 ? people.map(function (person) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+              className: "person-card",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                className: "person-info",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("h3", {
+                  children: [person.name, " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("span", {
+                    children: ["(", person.age, ")"]
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+                  children: person.bio
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                className: "actions",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
+                  onClick: function onClick() {
+                    return handleEdit(person);
+                  },
+                  className: "btn small edit",
+                  children: "\u270F\uFE0F"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
+                  onClick: function onClick() {
+                    return handleArchive(person.id);
+                  },
+                  className: "btn small delete",
+                  children: "\uD83D\uDDD1\uFE0F"
+                })]
+              })]
+            }, person.id);
+          }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+            className: "empty",
+            children: "No people added yet"
+          })
+        })]
+      }), showAddForm && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        className: "form-section",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          className: "form-card",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
+            children: editingId ? '✏️ Edit Person' : '➕ Add Person'
+          }), message && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "toast",
+            children: message
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("form", {
+            onSubmit: handleSubmit,
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-              className: "info",
+              className: "field",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("label", {
+                children: "Full Name"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("input", {
+                type: "text",
+                value: name,
+                onChange: function onChange(e) {
+                  return setName(e.target.value);
+                },
+                placeholder: "John Doe"
+              }), formErrors.name && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+                className: "error",
+                children: formErrors.name
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+              className: "field",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("label", {
+                children: "Age"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("input", {
+                type: "number",
+                value: age,
+                onChange: function onChange(e) {
+                  return setAge(e.target.value);
+                },
+                placeholder: "25"
+              }), formErrors.age && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+                className: "error",
+                children: formErrors.age
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+              className: "field",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("label", {
+                children: "Short Bio"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("textarea", {
+                value: bio,
+                onChange: function onChange(e) {
+                  return setBio(e.target.value);
+                },
+                placeholder: "Tell us something about yourself..."
+              }), formErrors.bio && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
+                className: "error",
+                children: formErrors.bio
+              })]
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+              className: "btn-group",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
+                type: "submit",
+                className: "btn primary",
+                children: editingId ? 'Update' : 'Add'
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
+                type: "button",
+                className: "btn cancel",
+                onClick: function onClick() {
+                  resetForm();
+                  setShowAddForm(false);
+                },
+                children: "Cancel"
+              })]
+            })]
+          })]
+        })
+      })]
+    }), showArchived && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      className: "list-section",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+        children: "\uD83D\uDCE6 Archived People"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        className: "people-list",
+        children: archivedPeople.length > 0 ? archivedPeople.map(function (person) {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+            className: "person-card archived",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+              className: "person-info",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("h3", {
                 children: [person.name, " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("span", {
                   children: ["(", person.age, ")"]
@@ -33902,72 +34092,23 @@ var Example = function Example() {
               className: "actions",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
                 onClick: function onClick() {
-                  return handleEdit(person);
+                  return handleRestoreFromArchive(person.id);
                 },
-                className: "btn edit",
-                children: "\u270F\uFE0F"
+                className: "btn small restore",
+                children: "\u267B\uFE0F Restore"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
                 onClick: function onClick() {
-                  return handleDelete(person.id);
+                  return handleDeleteArchived(person.id);
                 },
-                className: "btn delete",
-                children: "\uD83D\uDDD1\uFE0F"
+                className: "btn small delete",
+                children: "\uD83D\uDDD1\uFE0F Delete"
               })]
             })]
           }, person.id);
         }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
           className: "empty",
-          children: "No people added yet"
+          children: "No archived people yet"
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        className: "form-container",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
-          children: editingId ? '✏️ Edit' : '➕ Add'
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("form", {
-          onSubmit: handleSubmit,
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("input", {
-            type: "text",
-            value: name,
-            onChange: function onChange(e) {
-              return setName(e.target.value);
-            },
-            placeholder: "Full name"
-          }), formErrors.name && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
-            className: "error",
-            children: formErrors.name
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("input", {
-            type: "number",
-            value: age,
-            onChange: function onChange(e) {
-              return setAge(e.target.value);
-            },
-            placeholder: "Age"
-          }), formErrors.age && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
-            className: "error",
-            children: formErrors.age
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("textarea", {
-            value: bio,
-            onChange: function onChange(e) {
-              return setBio(e.target.value);
-            },
-            placeholder: "Short bio"
-          }), formErrors.bio && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
-            className: "error",
-            children: formErrors.bio
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-            className: "btn-group",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
-              type: "submit",
-              className: "btn primary",
-              children: editingId ? 'Update' : 'Add'
-            }), editingId && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
-              type: "button",
-              className: "btn cancel",
-              onClick: resetForm,
-              children: "Cancel"
-            })]
-          })]
-        })]
       })]
     })]
   });

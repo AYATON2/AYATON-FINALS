@@ -6,9 +6,11 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Person extends Model
+class People extends Model
 {
     use HasFactory, SoftDeletes;
+
+    protected $table = 'people';
 
     protected $fillable = [
         'name',
@@ -18,6 +20,8 @@ class Person extends Model
         'archived_at',
     ];
 
-    // Specify the dates that should be treated as Carbon instances
-    protected $dates = ['deleted_at', 'archived_at'];
+    protected $casts = [
+        'is_archived' => 'boolean',
+        'archived_at' => 'datetime',
+    ];
 }

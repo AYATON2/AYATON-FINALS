@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>People Management</title>
 
-    <!-- Link to CSS (Compiled by Laravel Mix) -->
-    <link href="{{ mix('css/app.css') }}" rel="stylesheet"> <!-- Only link it once -->
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
-
 <body>
-    <!-- React will render content here -->
-    <div id="app"></div>
+    <div id="app">
+        <h1>People List</h1>
+        @if(session('success'))
+            <div>{{ session('success') }}</div>
+        @endif
 
-    <!-- Laravel backend functionality -->
-    @if(session('success'))
-        <div>{{ session('success') }}</div>
-    @endif
+        <div class="people-list">
+            @foreach($people as $person)
+                <div class="person">
+                    <h2>{{ $person->name }}</h2>
+                    <p>{{ $person->bio }}</p>
+                    <p>Age: {{ $person->age }}</p>
+                </div>
+            @endforeach
+        </div>
+    </div>
 
-    <!-- Link to compiled React JS -->
-    <script src="{{ mix('js/app.js') }}"></script> <!-- This links the compiled React JS -->
+    <script src="{{ mix('js/app.js') }}"></script>
 </body>
-
 </html>

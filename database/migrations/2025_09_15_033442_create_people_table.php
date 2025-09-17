@@ -16,6 +16,12 @@ class CreatePeopleTable extends Migration
             $table->integer('age');
             $table->text('bio');
             $table->timestamps();
+            // Add is_archived column (0 for not archived, 1 for archived)
+            $table->boolean('is_archived')->default(0);
+            // Add archived_at column for timestamp when archived
+            $table->timestamp('archived_at')->nullable();
+            // Soft delete column
+            $table->timestamp('deleted_at')->nullable();
         });
     }
 
@@ -24,4 +30,3 @@ class CreatePeopleTable extends Migration
         Schema::dropIfExists('people');
     }
 }
-

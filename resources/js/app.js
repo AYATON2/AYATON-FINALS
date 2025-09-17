@@ -1,12 +1,7 @@
-// resources/js/app.js
-
-// Import the CSS/SCSS file that was compiled by Laravel Mix
-import '../sass/app.scss'; // Assuming your main SCSS file is app.scss
-
+import '../sass/app.scss'; 
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';  // Correct import for React 17
 
-// Import your Example component
 import Example from './components/Example';
 
 const App = () => {
@@ -17,5 +12,5 @@ const App = () => {
     );
 };
 
-// Render the App component into the DOM
+// React 17 rendering method
 ReactDOM.render(<App />, document.getElementById('app'));
